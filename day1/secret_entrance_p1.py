@@ -9,8 +9,6 @@ with open("day1_input.txt", "r") as f:
 
         if line[0] == 'L':
             point -= clicks
-            while point < 0:
-                point += NUM_OF_DIALS
         else:
             point += clicks
         
