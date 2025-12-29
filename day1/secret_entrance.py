@@ -18,6 +18,7 @@ def part1():
             if point == 0:
                 password += 1
 
+    f.close()
     print(password)
 
 def part2():
@@ -41,4 +42,5 @@ def part2():
 
             point %= NUM_OF_DIALS
 
+    f.close()
     print(password)
